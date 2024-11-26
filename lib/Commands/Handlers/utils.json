@@ -1,0 +1,163 @@
+{
+    "name": "toggle",
+    "description": "Fazer a ativação de sistemas de segurança, jogos e demais.",
+    "usage": {
+        "general": "[Prefix][Alias] [On|Off|-add|-rem|-clear|-text|-ban|-set] [-add|-rem|-clear|Prefix|Text|Lang|Num] [Values]",
+        "examples": [
+            "FOR ADVANCED HELP PLEASE USE '/handlers --examples' and read.",
+            "/dnd on",
+            "/handlers -antifake -antilinks -blacklist -prefix -nsfw -spy -language -goodbye -whitelist -leveling -welcome -antispam on",
+            "/command on",
+            "/welcome -text -add {userm} entrou em {groupm}, leia a {desc}!",
+            "/welcome -text -clear",
+            "/antifake -add 1|357|54",
+            "/vips -rem 5512345|5598765|13139999",
+            "/prefix -clear",
+            "toggle.execute('kill', 'params')",
+            "toggle.env()",
+            "toggle.reset()",
+            "toggle.env().functions.execute.value('kill', 'params')"
+        ]
+    },
+    "license": "MIT",
+    "helps": [
+        "Complexo, não? Siga os exemplos se não for bom nisso/não gostar de ler!",
+        "O comando dnd te fará ser ignorado no comando everyone, ele se chama dnd por conta da sigla DND em inglês, que significa 'Do-Not-Disturb', ou em português, não pertube.",
+        "Usar o comando language no PV mudará apenas o seu idioma pessoal, deixando o idioma geral do grupo intacto.",
+        "Você não precisa definir todos os DDIs do mundo, se quiser banir todos os estrangeiros e fakes, basta definir o primeiro digito do DDI deles, ou seja, bloquear o DDI 1 banirá todos os DDIs que comecem com 1, como '1, 10, 120' e outros.",
+        "A whitelist funciona da mesma forma acima, se você inserir apenas o número inicial, isso NÃO irá banir qualquer número que o DDI comece com X valor.",
+        "Alguns sistemas podem exigir que você insira tanto o '-text' como '-add', siga os exemplos atentamente, eventualmente você pegará o jeito!",
+        "O sistema spy permite saber quem demitiu um administrador ou qual administrador contratou outro administrador, evite sua ativação se planeja fazer demissões ou contratações em massa.",
+        "O antispam deve conter o uso de '-set' para a configuração após ativar, o mesmo ocorre no antilinks.",
+        "Se desejar inserir o nome do grupo, marcar o usuário nas mensagens ou enviar a descrição do grupo, basta inserir váriaveis, como '{userm}', '{groupm}' e '{desc}' nas suas mensagens customizadas.",
+        "Existem diversas outras váriaveis, mas a maioria das funções é ultrasecreta, inútil ou somente o dono <TALVEZ> saberá como as usar, então elas se manterão em segredo, quem sabe você as descobre acidentalmente...",
+        "Para configurar o limite de spam, defina o valor para declarar como spam, como por exemplo: 10 mídias",
+        "Para configurar o modo de operação da URL, defina de 1 a 3 na frente com '-set', sendo que: 1 = Tudo/All | 2 = Invite/Convites | 3 = Porno/Virus/Fakenews/Apostas",
+        "O antifake deve ser configurado com o DDI, ou seja, se quiser banir todos os números +1, apenas digite 1 no uso do comando.",
+        "O antispam deve ser definido com o argumento '-ban' se quiser que a pessoa seja removida, se não for o caso, você pode ignorar o uso do '-ban' e apenas inserir o número com '-set' antes, isso é a quantidade de mídias máximas enviadas de uma vez pela pessoa."
+    ],
+    "exports": {
+        "env": "env",
+        "messedup": "messedup",
+        "exec": "execute",
+        "reset": "reset",
+        "poswork": "finish"
+    },
+    "developer": "KillovSky",
+    "files": {
+        "index.js": "Sistema de busca, download e envio de vídeos do YouTube.",
+        "utils.json": "Dados de fábrica da envInfo."
+    },
+    "modules": {
+        "fs": "Leitura de diretórios e arquivos.",
+        "path": "Para inserção do local na envInfo.",
+        "../../Dialogues/index": "Funções que retornam os diálogos necessários.",
+        "../../index'": "Para rodar funções de outros arquivos."
+    },
+    "functions": {
+        "ambient": {
+            "arguments": false,
+            "description": "Retorna as variáveis e sistemas do arquivo.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "messedup": {
+            "arguments": {
+                "error": {
+                    "description": "Instância de erro para formatação.",
+                    "type": "Boolean / Error",
+                    "value": false
+                }
+            },
+            "description": "Ajusta os valores de erro.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "exec": {
+            "arguments": {
+                "kill": {
+                    "description": "Funções de controle raiz da Yui.",
+                    "type": "Boolean / Object",
+                    "value": false
+                },
+                "env": {
+                    "description": "Dados da mensagem recebida.",
+                    "type": "Boolean / Object",
+                    "value": false
+                }
+            },
+            "description": "Redireciona a função correta para o arquivo correto.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "poswork": {
+            "arguments": {
+                "response": {
+                    "description": "Resultados de uma função.",
+                    "type": "Any",
+                    "value": false
+                }
+            },
+            "description": "Verifica se pode resetar a envInfo e retorna o resultado da função.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "revert": {
+            "arguments": {
+                "changeKey": {
+                    "description": "Uma Object com valores que existem na envInfo, ela será usada para substituir o sistema em tempo real.",
+                    "type": "Object value",
+                    "anyValue": false
+                }
+            },
+            "description": "Reseta a envInfo para a Object padrão.",
+            "type": "Boolean / Function",
+            "value": false
+        }
+    },
+    "settings": {
+        "wait": {
+            "description": "Tempo em MS que deve esperar antes de resetar.",
+            "type": "Number",
+            "value": 5000
+        },
+        "error": {
+            "description": "Define se pode printar qualquer erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "ender": {
+            "description": "Define se deve resetar a cada erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "finish": {
+            "description": "Define se deve resetar a cada finalização.",
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    "parameters": {
+        "location": {
+            "description": "Local onde o módulo pode ser encontrado.",
+            "type": "Boolean / String",
+            "value": "./index"
+        },
+        "code": {
+            "description": "Código do erro que obter.",
+            "type": "Boolean / String / Number",
+            "value": false
+        },
+        "message": {
+            "description": "Armazena a mensagem do último erro recebido.",
+            "type": "Boolean / String",
+            "value": false
+        }
+    },
+    "results": {
+        "description": "Resultado final da função.",
+        "success": true,
+        "type": "String / Boolean",
+        "value": false
+    }
+}

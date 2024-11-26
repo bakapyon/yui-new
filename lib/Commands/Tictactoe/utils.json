@@ -1,0 +1,164 @@
+{
+    "name": "tictactoe",
+    "description": "Criar, jogar e organizar um classico jogo da velha por posição.",
+    "usage": {
+        "general": "[Prefix][Comando] [-Play/-Cancel/-Create/-Board/-Placar] [1-3/0-9/@User/Mensagem] [@User/Mensagem]",
+        "examples": [
+            "/ttt -play 5 @user/message",
+            "/ttt -placar @user/message",
+            "/ttt -board @user/message",
+            "/ttt -cancel @user/message",
+            "/ttt -create 1 @user/message",
+            "/ttt --help",
+            "tictactoe.execute('kill', 'params')",
+            "tictactoe.env()",
+            "tictactoe.reset()",
+            "tictactoe.env().functions.execute.value('kill', 'params')"
+        ]
+    },
+    "license": "MIT",
+    "helps": [
+        "Conquistar a vitória resultará em um ganho de 5 icoin's, porém, em caso de derrota, você perderá 5 deles. Se você não possuir nenhum icoin, ficará em débito com o banco, e qualquer icoin ganho enquanto estiver no negativo será utilizado para quitar sua dívida.",
+        "O create deve conter um número de 1 a 3 antes de marcar algúem para jogar, o número representa a dificuldade se for um jogo contra a Yui e é obrigatorio inserir, mesmo que você jogue com outro humano.",
+        "As dificuldades presentes são easy (1), medium (2) e hardcore (3), sendo que a chance de vitoria de cada, em ordem, é: 90%, 50%, 1%",
+        "Você deve cancelar um jogo antes de jogar com outra pessoa, caso contrario, você pode acabar jogando em outra partida sua que não é a atual.",
+        "Se você estiver em somente uma partida, você não precisa mencionar a pessoa no comando, exceto quando for criar uma partida, no restante, jogue diretamente, a Yui localizará a partida para você.",
+        "Para fazer uma jogada em uma partida especifica, marque a mensagem ou mencione a pessoa da sua partida no comando play, ISSO É DE SUMA IMPORTANCIA."
+    ],
+    "exports": {
+        "env": "env",
+        "messedup": "messedup",
+        "exec": "execute",
+        "reset": "reset",
+        "poswork": "finish"
+    },
+    "developer": "KillovSky",
+    "files": {
+        "index.js": "Sistema que faz a coleta das informações e envio.",
+        "utils.json": "Dados de fábrica da envInfo."
+    },
+    "modules": {
+        "fs": "Leitura de diretórios e arquivos.",
+        "path": "Para inserção do local na envInfo.",
+        "wa-sticker-formatter": "Para enviar o tabuleiro como sticker",
+        "tictactoe-agent": "Defines as jogadas da Yui.",
+        "../../Dialogues/index": "Funções que retornam os diálogos necessários.",
+        "../../index'": "Para rodar funções de outros arquivos."
+    },
+    "functions": {
+        "ambient": {
+            "arguments": false,
+            "description": "Retorna as variáveis e sistemas do arquivo.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "messedup": {
+            "arguments": {
+                "error": {
+                    "description": "Instância de erro para formatação.",
+                    "type": "Boolean / Error",
+                    "value": false
+                }
+            },
+            "description": "Ajusta os valores de erro.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "exec": {
+            "arguments": {
+                "kill": {
+                    "description": "Funções de controle raiz da Yui.",
+                    "type": "Boolean / Object",
+                    "value": false
+                },
+                "env": {
+                    "description": "Dados da mensagem recebida.",
+                    "type": "Boolean / Object",
+                    "value": false
+                }
+            },
+            "description": "Constroi, executa e joga o TicTacToe.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "poswork": {
+            "arguments": {
+                "response": {
+                    "description": "Resultados de uma função.",
+                    "type": "Any",
+                    "value": false
+                }
+            },
+            "description": "Verifica se pode resetar a envInfo e retorna o resultado da função.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "revert": {
+            "arguments": {
+                "changeKey": {
+                    "description": "Uma Object com valores que existem na envInfo, ela será usada para substituir o sistema em tempo real.",
+                    "type": "Object value",
+                    "anyValue": false
+                }
+            },
+            "description": "Reseta a envInfo para a Object padrão.",
+            "type": "Boolean / Function",
+            "value": false
+        }
+    },
+    "settings": {
+        "wait": {
+            "description": "Tempo em MS que deve esperar antes de resetar.",
+            "type": "Number",
+            "value": 5000
+        },
+        "error": {
+            "description": "Define se pode printar qualquer erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "ender": {
+            "description": "Define se deve resetar a cada erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "finish": {
+            "description": "Define se deve resetar a cada finalização.",
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    "parameters": {
+        "location": {
+            "description": "Local onde o módulo pode ser encontrado.",
+            "type": "Boolean / String",
+            "value": "./index"
+        },
+        "code": {
+            "description": "Código do erro que obter.",
+            "type": "Boolean / String / Number",
+            "value": false
+        },
+        "message": {
+            "description": "Armazena a mensagem do último erro recebido.",
+            "type": "Boolean / String",
+            "value": false
+        },
+        "coinsWin": {
+            "description": "Define quantos icoins a pessoa ganha se vencer um jogo.",
+            "type": "Number",
+            "value": 15
+        },
+        "coinsLost": {
+            "description": "Define quantos icoins a pessoa perde se não vencer um jogo.",
+            "type": "Number",
+            "value": -5
+        }
+    },
+    "results": {
+        "description": "Resultado final da função.",
+        "success": true,
+        "type": "String / Boolean",
+        "value": false
+    }
+}

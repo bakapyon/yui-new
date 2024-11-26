@@ -1,0 +1,217 @@
+{
+    "name": "convert",
+    "description": "Realizar a conversão de arquivos webp para PNG, GIF ou MP4.",
+    "usage": {
+        "general": "[Prefix][Alias] [--metadata/--fps/--time] [valor]",
+        "examples": [
+            "/tomp4 --time 30",
+            "/toimage",
+            "/tovideo --fps 60",
+            "/togif",
+            "/tomp4 --time 30 --fps 60",
+            "/toimg --metadata",
+            "/convert --help",
+            "convert.execute('kill', 'params')",
+            "convert.env()",
+            "convert.tomp4('input', 'filename', 'fps', 'secs')",
+            "convert.extract('input', 'output', 'filename')",
+            "convert.reset()",
+            "convert.env().functions.execute.value('kill', 'params')",
+            "convert.env().functions.extract.value('input', 'output', 'filename')",
+            "convert.env().functions.tomp4.value('input', 'filename', 'fps', 'time (s)')"
+        ]
+    },
+    "license": "MIT",
+    "helps": [
+        "O conversor não permitirá o envio de videos de mais de X segundos ou minutos, portanto, o limite é o tempo que meu chefe configurar para esse sistema, o mesmo ocorre com a quantidade de FPS de um video.",
+        "Usar o comando como 'togif' enviará como gif, os outros alias enviarão como arquivo de video ou imagem.",
+        "O uso de '--metadata' enviará informações do Sticker, isso pode conter links ou ofensas, use com cautela.",
+        "Esse sistema não utiliza scrapping, APIs ou similares, tudo é feito localmente, portanto, dependendo da perfomance do computador ou servidor atual, pode exigir mais tempo de conversão.",
+        "Esse sistema também converte stickers sem animação em arquivos de video ou gif.",
+        "Você pode mudar os parâmetros da exports enviando o valor da Object que deseja editar ao resetar, por exemplo → convert.reset({ name: 'Body'}) ← Isso mudaria o module de convert para Body, o uso então passaria ser: → Body.funcão ← Isso também permite que você edite a função usando o mesmo método.",
+        "Você pode mudar o que os códigos rodam, em tempo real, basta usar a 'env', por exemplo → convert.env().name = 'Body' ← Mas este método não atualizará o sistema, somente a Object, os sistemas permanecem intactos.",
+        "Você pode configurar o tempo de reset dos resultados ou se eles devem ser resetados usando a env, por exemplo → convert.env().settings.wait = 10000 ← Isso mudaria o tempo de espera para 10 segundos, o tempo deve ser em milissegundos.",
+        "Alguém lê essas dicas? Se sim, torne-se um programador, ler os tutoriais é de suma importância e poucos desenvolvedores o fazem...",
+        "Existem infinitas formas de uso secretas, explore os códigos para descobrir os mistérios dos sistemas!"
+    ],
+    "exports": {
+        "env": "env",
+        "messedup": "messedup",
+        "exec": "execute",
+        "extract": "extract",
+        "tomp4": "tomp4",
+        "reset": "reset",
+        "poswork": "finish"
+    },
+    "developer": "KillovSky",
+    "files": {
+        "index.js": "Sistema que faz a coleta das informações e envio.",
+        "utils.json": "Dados de fábrica da envInfo."
+    },
+    "modules": {
+        "fs": "Leitura de diretórios e arquivos.",
+        "path": "Para inserção do local na envInfo.",
+        "../../Dialogues/index": "Funções que retornam os diálogos necessários.",
+        "../../index'": "Para rodar funções de outros arquivos."
+    },
+    "functions": {
+        "ambient": {
+            "arguments": false,
+            "description": "Retorna as variáveis e sistemas do arquivo.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "messedup": {
+            "arguments": {
+                "error": {
+                    "description": "Instância de erro para formatação.",
+                    "type": "Boolean / Error",
+                    "value": false
+                }
+            },
+            "description": "Ajusta os valores de erro.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "extract": {
+            "arguments": {
+                "inputFile": {
+                    "description": "Local ou Buffer do Webp inicial.",
+                    "type": "Boolean / String / Buffer",
+                    "value": false
+                },
+                "outputPath": {
+                    "description": "Local da saida do MP4.",
+                    "type": "Boolean / String",
+                    "value": false
+                },
+                "fileName": {
+                    "description": "Nome prefix dos arquivos de frame extraidos.",
+                    "type": "String",
+                    "value": "frame"
+                }
+            },
+            "description": "Extrai os frames do WebP para construir um MP4.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "tomp4": {
+            "arguments": {
+                "inputFolder": {
+                    "description": "Pasta com os locais dos WebPs extraidos.",
+                    "type": "Boolean / String",
+                    "value": false
+                },
+                "fileName": {
+                    "description": "Nome prefix dos arquivos de frame extraidos.",
+                    "type": "String",
+                    "value": "frame"
+                },
+                "delay": {
+                    "description": "Tempo em MS que cada imagem do MP4 deve ter, a formula dos FPS é calculada por 1FPS sendo 1000ms.",
+                    "type": "Number",
+                    "value": 33
+                }
+            },
+            "description": "Constrói um MP4 com os frames extraidos de um webp.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "exec": {
+            "arguments": {
+                "kill": {
+                    "description": "Funções de controle raiz da Yui.",
+                    "type": "Boolean / Object",
+                    "value": false
+                },
+                "env": {
+                    "description": "Dados da mensagem recebida.",
+                    "type": "Boolean / Object",
+                    "value": false
+                }
+            },
+            "description": "Executa o comando representado nesse arquivo.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "poswork": {
+            "arguments": {
+                "response": {
+                    "description": "Resultados de uma função.",
+                    "type": "Any",
+                    "value": false
+                }
+            },
+            "description": "Verifica se pode resetar a envInfo e retorna o resultado da função.",
+            "type": "Boolean / Function",
+            "value": false
+        },
+        "revert": {
+            "arguments": {
+                "changeKey": {
+                    "description": "Uma Object com valores que existem na envInfo, ela será usada para substituir o sistema em tempo real.",
+                    "type": "Object value",
+                    "anyValue": false
+                }
+            },
+            "description": "Reseta a envInfo para a Object padrão.",
+            "type": "Boolean / Function",
+            "value": false
+        }
+    },
+    "settings": {
+        "wait": {
+            "description": "Tempo em MS que deve esperar antes de resetar.",
+            "type": "Number",
+            "value": 5000
+        },
+        "error": {
+            "description": "Define se pode printar qualquer erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "ender": {
+            "description": "Define se deve resetar a cada erro.",
+            "type": "Boolean",
+            "value": true
+        },
+        "finish": {
+            "description": "Define se deve resetar a cada finalização.",
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    "parameters": {
+        "location": {
+            "description": "Local onde o módulo pode ser encontrado.",
+            "type": "Boolean / String",
+            "value": "./index"
+        },
+        "code": {
+            "description": "Código do erro que obter.",
+            "type": "Boolean / String / Number",
+            "value": false
+        },
+        "message": {
+            "description": "Armazena a mensagem do último erro recebido.",
+            "type": "Boolean / String",
+            "value": false
+        },
+        "maxFPS": {
+            "description": "FPS máximo para a conversão de videos, valores muito altos podem levar a videos absurdamente rápidos, pesados e crashes.",
+            "type": "Number",
+            "value": 60
+        },
+        "maxTime": {
+            "description": "Tempo máximo em segundos para a conversão de videos, valores muito altos podem levar a arquivos absurdamente grandes e crashes.",
+            "type": "Number",
+            "value": 30
+        }
+    },
+    "results": {
+        "description": "Resultado final da função.",
+        "success": true,
+        "type": "String / Boolean",
+        "value": false
+    }
+}

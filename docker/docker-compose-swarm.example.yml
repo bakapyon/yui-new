@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  yui:
+    image: hypegg/yui-project:v1.1.6
+    deploy:
+      replicas: 1 # Mantenha em 1
+      restart_policy:
+        condition: on-failure # Define a política de reinício
+    volumes:
+      - yui_backup:/Yui/lib/Backups # Volume para backups
+      - yui_sessions:/Yui/lib/Sessions # Volume para sessões
+      - yui_databases:/Yui/lib/Databases # Volume para bancos de dados
+      # - yui_commands:/Yui/lib/Commands    # Volume para comandos (Opcional)
+      # - yui_Dialogues:/Yui/lib/Dialogues  # Volume para diálogos (Opcional)
+    networks:
+      - yui_network # Nome da rede
+    ports:
+      - "3000:3000" # Mapeamento da porta 3000
+
+volumes:
+  yui_backup:
+  yui_sessions:
+  yui_databases:
+  # yui_commands:
+  # yui_Dialogues:
+
+networks:
+  yui_network: # Define uma rede que será criada automaticamente

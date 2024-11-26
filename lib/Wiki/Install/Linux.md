@@ -1,0 +1,1 @@
+### Moved to: https://github.com/KillovSky/Yui/wiki

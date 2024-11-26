@@ -1,0 +1,27 @@
+{
+	"moderatorCommands": [
+		"antifake",
+		"antilinks",
+		"blacklist",
+		"prefix",
+		"nsfw",
+		"spy",
+		"dnd",
+		"language",
+		"goodbye",
+		"whitelist",
+		"leveling",
+		"welcome",
+		"antispam",
+		"warn",
+		"unwarn",
+		"everyone",
+		"totag",
+		"mentionall"
+	],
+	"vipCommands": [
+		"everyone",
+		"totag",
+		"mentionall"
+	]
+}
