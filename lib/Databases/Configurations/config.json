@@ -159,7 +159,7 @@
 	},
 	"stickerAuthor": {
 		"description": "Sets the author of the created stickers. Keep as default to generate automatic names based on group and user names. Keep the default (optional) to support official devs XD.",
-		"value": "DONTEDITUSER 🎁\nDONTEDITFROM 📱\nDONTEDITBY [linktr.ee/killovsky] 🌐\nDONTEDITMADEAS 📅"
+		"value": "DONTEDITUSER 🎁\nDONTEDITFROM 📱\nDONTEDITBY 🌐\nDONTEDITMADEAS 📅"
 	},
     "stickerColors": {
 		"description": "The amount of colors to use into ATTP, more you set, more slow will be.",

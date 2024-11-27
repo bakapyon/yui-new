@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que faz a coleta das informações e envio.",
         "utils.json": "Dados de fábrica da envInfo.",

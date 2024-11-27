@@ -36,7 +36,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que contém diversas funções de tipo 'RegExp' que ajudam nos comandos da Yui.",
         "utils.json": "Dados de fábrica da envInfo."

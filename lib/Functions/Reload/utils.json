@@ -30,7 +30,7 @@
         "stopwatch": "stop",
         "reset": "reset"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "utils.json": "Dados de fábrica da envInfo.",
         "index.js": "Sistema que recarrega os arquivos de código para atualização em tempo real."

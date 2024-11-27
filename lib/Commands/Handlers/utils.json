@@ -43,7 +43,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema de busca, download e envio de vídeos do YouTube.",
         "utils.json": "Dados de fábrica da envInfo."

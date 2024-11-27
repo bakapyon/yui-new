@@ -25,30 +25,30 @@
     "minify": "node lib/Scripts/MinifyYui.js",
     "test": "npm run"
   },
-  "author": "KillovSky",
-  "documentation": "https://github.com/KillovSky/Yui/wiki",
+  "author": "pyon",
+  "documentation": "https://github.com/pyon/Yui/wiki",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KillovSky/Yui.git"
+    "url": "git+https://github.com/pyon/Yui.git"
   },
   "bugs": {
-    "url": "https://github.com/KillovSky/Yui/issues"
+    "url": "https://github.com/pyon/Yui/issues"
   },
-  "homepage": "https://KillovSky.github.io/Yui",
+  "homepage": "https://pyon.github.io/Yui",
   "social": {
-    "github": "https://github.com/KillovSky",
-    "npm": "https://npmjs.com/~killovsky",
-    "other": "https://linktr.ee/killovsky"
+    "github": "https://github.com/pyon",
+    "npm": "https://npmjs.com/~pyon",
+    "other": "https://linktr.ee/pyon"
   },
   "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
-    "@killovsky/gimages": "^1.0.0",
-    "@killovsky/gtts": "^1.0.0",
-    "@killovsky/nasa": "^1.0.1",
-    "@killovsky/telegraph": "^1.0.0",
-    "@killovsky/tree": "^1.0.0",
+    "@pyon/gimages": "^1.0.0",
+    "@pyon/gtts": "^1.0.0",
+    "@pyon/nasa": "^1.0.1",
+    "@pyon/telegraph": "^1.0.0",
+    "@pyon/tree": "^1.0.0",
     "@vitalets/google-translate-api": "^9.2.0",
     "@xenova/transformers": "^2.17.2",
     "axios": "^1.5.0",
@@ -91,11 +91,11 @@
   "funding": [
     {
       "type": "kofi",
-      "url": "http://ko-fi.com/killovsky"
+      "url": "http://ko-fi.com/pyon"
     },
     {
       "type": "others",
-      "url": "https://linktr.ee/killovsky"
+      "url": "https://linktr.ee/pyon"
     }
   ],
   "devDependencies": {

@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que adquire os parâmetros de uma mensagem e seus dados adicionais, além de redirecionar para o local correto.",
         "utils.json": "Dados de fábrica da envInfo."

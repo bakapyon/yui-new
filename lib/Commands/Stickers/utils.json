@@ -32,7 +32,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que faz a conversão das imagens, vídeos, documentos e similares em sticker.",
         "utils.json": "Dados de fábrica da envInfo.",

@@ -92,7 +92,7 @@
     },
     "chatbot": {
         "name": "ChatBOT Settings",
-        "website": "https://github.com/KillovSky/Yui",
+        "website": "https://github.com/pyon/Yui",
         "type": "Config",
         "comment": "1 = LOCAL [FREE/OFFLINE] | 2 = BRAINSHOP [FREE/English & Chinese Only/KEY] | 3 = CLEVERBOT [FREE/NO-KEY] | 4 = SIMSIMI [FREE/KEY]",
         "model": "4"

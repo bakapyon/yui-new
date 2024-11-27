@@ -28,7 +28,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que faz a classificação dos arquivos.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -36,7 +36,7 @@
     "modules": {
         "fs": "Leitura de diretórios e arquivos.",
         "path": "Para obter o nome da pasta.",
-        "@killovsky/tree": "Para filtrar os arquivos da pasta."
+        "@pyon/tree": "Para filtrar os arquivos da pasta."
     },
     "functions": {
         "ambient": {

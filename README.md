@@ -20,32 +20,32 @@ E na fronteira entre terror e renascimento, uma pergunta sempre ecoa:
 
 "Inaceso, a chama da vida que possuis ainda cintila digna de conduzir-te a um ciclo inatingível?" -->
 <p align="center">
-    <img align="center" src="https://raw.githubusercontent.com/KillovSky/Yui/main/lib/Commands/Default/Cache/Banner.png" width="512" height="320">
+    <img align="center" src="https://raw.githubusercontent.com/pyon/Yui/main/lib/Commands/Default/Cache/Banner.png" width="512" height="320">
 </p>
 <p align="center">
-    <a align="center" href="https://linktr.ee/killovsky">Banner by KillovSky</a>
+    <a align="center" href="https://linktr.ee/pyon">Banner by pyon</a>
 </p>
 <!-- <p align="center">
     <a align="center" href="https://bento.me/joanderson">Banner by Jojo</a>
 </p> -->
 <p align="center">
     <h1 align="center">Projeto Yui</h1>
-    <a href="https://github.com/KillovSky/yui/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/KillovSky/Yui?color=blue&label=License&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/yui"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/KillovSky/yui?label=Size%20%28With%20.git%20folder%29&style=flat-square"></a>
-    <a href="https://api.github.com/repos/KillovSky/Yui/languages"><img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/KillovSky/Yui?label=Code%20Languages&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/Yui/blob/main/.github/CHANGELOG.md"><img alt="GitHub Version" src="https://img.shields.io/github/package-json/v/KillovSky/Yui?label=Latest%20Version&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/Yui/blob/main/.github/CHANGELOG.md"><img alt="Project Codename" src="https://img.shields.io/github/package-json/build_name/KillovSky/Yui?label=Latest%20Codename"></a>
-    <a href="https://github.com/KillovSky/Yui/blob/main/.github/CHANGELOG.md"><img alt="Last Update" src="https://img.shields.io/github/package-json/build_date/KillovSky/Yui?label=Latest%20Update"></a>
-    <a href="https://github.com/KillovSky/yui/commits/main"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/y/KillovSky/Yui?label=Commits&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/yui/stargazers/"><img title="GitHub Stars" src="https://img.shields.io/github/stars/KillovSky/yui?label=Stars&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/yui/network/members"><img title="GitHub Forks" src="https://img.shields.io/github/forks/KillovSky/yui?label=Forks&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/yui/watchers"><img title="GitHub Watchers" src="https://img.shields.io/github/watchers/KillovSky/yui?label=Watchers&style=flat-square"></a>
-    <a href="https://www.codefactor.io/repository/github/killovsky/yui"><img alt="Code Quality" src="https://www.codefactor.io/repository/github/killovsky/yui/badge"></a>
-    <a href="http://isitmaintained.com/project/killovsky/yui"><img alt="Issue Resolution" src="http://isitmaintained.com/badge/resolution/killovsky/yui.svg"></a>
-    <a href="http://isitmaintained.com/project/killovsky/yui"><img alt="Open Issues" src="http://isitmaintained.com/badge/open/killovsky/yui.svg"></a>
-    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKillovSky%2FYui&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views+%28Since+01%2F04%2F24%29&edge_flat=false"/></a>
-    <a href="https://github.com/KillovSky/yui/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/KillovSky/Yui?label=Pull%20Requests&style=flat-square"></a>
-    <a href="https://github.com/KillovSky/yui/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/KillovSky/Yui?label=Contribuidores&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/pyon/Yui?color=blue&label=License&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/pyon/yui?label=Size%20%28With%20.git%20folder%29&style=flat-square"></a>
+    <a href="https://api.github.com/repos/pyon/Yui/languages"><img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/pyon/Yui?label=Code%20Languages&style=flat-square"></a>
+    <a href="https://github.com/pyon/Yui/blob/main/.github/CHANGELOG.md"><img alt="GitHub Version" src="https://img.shields.io/github/package-json/v/pyon/Yui?label=Latest%20Version&style=flat-square"></a>
+    <a href="https://github.com/pyon/Yui/blob/main/.github/CHANGELOG.md"><img alt="Project Codename" src="https://img.shields.io/github/package-json/build_name/pyon/Yui?label=Latest%20Codename"></a>
+    <a href="https://github.com/pyon/Yui/blob/main/.github/CHANGELOG.md"><img alt="Last Update" src="https://img.shields.io/github/package-json/build_date/pyon/Yui?label=Latest%20Update"></a>
+    <a href="https://github.com/pyon/yui/commits/main"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/y/pyon/Yui?label=Commits&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui/stargazers/"><img title="GitHub Stars" src="https://img.shields.io/github/stars/pyon/yui?label=Stars&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui/network/members"><img title="GitHub Forks" src="https://img.shields.io/github/forks/pyon/yui?label=Forks&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui/watchers"><img title="GitHub Watchers" src="https://img.shields.io/github/watchers/pyon/yui?label=Watchers&style=flat-square"></a>
+    <a href="https://www.codefactor.io/repository/github/pyon/yui"><img alt="Code Quality" src="https://www.codefactor.io/repository/github/pyon/yui/badge"></a>
+    <a href="http://isitmaintained.com/project/pyon/yui"><img alt="Issue Resolution" src="http://isitmaintained.com/badge/resolution/pyon/yui.svg"></a>
+    <a href="http://isitmaintained.com/project/pyon/yui"><img alt="Open Issues" src="http://isitmaintained.com/badge/open/pyon/yui.svg"></a>
+    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpyon%2FYui&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views+%28Since+01%2F04%2F24%29&edge_flat=false"/></a>
+    <a href="https://github.com/pyon/yui/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/pyon/Yui?label=Pull%20Requests&style=flat-square"></a>
+    <a href="https://github.com/pyon/yui/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/pyon/Yui?label=Contribuidores&style=flat-square"></a>
 </p>
 
 ## ⚠️ Mural Urgente
@@ -70,19 +70,19 @@ A Yui é uma base de BOT versátil para WhatsApp, em constante evolução, que p
 
 ## 📚 Informações Adicionais
 
-A partir da versão `1.1.5`, a maioria das informações, guias e tutoriais de edição serão centralizados na [Wiki do Projeto Yui](https://github.com/KillovSky/Yui/wiki).
+A partir da versão `1.1.5`, a maioria das informações, guias e tutoriais de edição serão centralizados na [Wiki do Projeto Yui](https://github.com/pyon/Yui/wiki).
 
 ## 🔗 Website
 
-Agora temos um website para a Yui! Para acessá-lo, basta [clicar aqui](https://killovsky.github.io/Yui). Lembre-se de que a opção de login, logs e configuração está destinada apenas a conexões locais. Tentar utilizá-la neste site levará você à página inicial. Além disso, escondi easter eggs na página e nos arquivos markdown, javascript e outros. Talvez usar um pouco de **RAW** ou Nuka-Cola te faça **ver** as coisas de **outro ponto de vista**.
+Agora temos um website para a Yui! Para acessá-lo, basta [clicar aqui](https://pyon.github.io/Yui). Lembre-se de que a opção de login, logs e configuração está destinada apenas a conexões locais. Tentar utilizá-la neste site levará você à página inicial. Além disso, escondi easter eggs na página e nos arquivos markdown, javascript e outros. Talvez usar um pouco de **RAW** ou Nuka-Cola te faça **ver** as coisas de **outro ponto de vista**.
 
 ## 📢 Considerações
 
-Essa versão do Projeto Yui ainda está em desenvolvimento, e alguns bugs são esperados. Se encontrar algum, por favor, reporte aos desenvolvedores criando [Issues](https://github.com/KillovSky/Yui/issues/604).
+Essa versão do Projeto Yui ainda está em desenvolvimento, e alguns bugs são esperados. Se encontrar algum, por favor, reporte aos desenvolvedores criando [Issues](https://github.com/pyon/Yui/issues/604).
 
 ## 🌐 Outros Projetos
 
-Além da Yui, desenvolvo diversas ferramentas de código aberto que podem ser utilizadas via 'require' e 'npm'. Para explorar mais projetos, confira [minha página no NPM](https://www.npmjs.com/~killovsky). Lembre-se de respeitar as licenças de uso de cada projeto conforme a [Lei Nº 9.610, de 19 de fevereiro de 1998](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm).
+Além da Yui, desenvolvo diversas ferramentas de código aberto que podem ser utilizadas via 'require' e 'npm'. Para explorar mais projetos, confira [minha página no NPM](https://www.npmjs.com/~pyon). Lembre-se de respeitar as licenças de uso de cada projeto conforme a [Lei Nº 9.610, de 19 de fevereiro de 1998](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm).
 
 ## 📱 Redes Sociais
 
@@ -90,7 +90,7 @@ Para informar erros ou buscar suporte, utilize nossas redes sociais:
 
 1. [Discord](https://discord.gg/ZtN9UH7XZu)
 2. [Telegram](https://t.me/PROJETOyui)
-3. [Issues](https://github.com/KillovSky/Yui/issues/604)
+3. [Issues](https://github.com/pyon/Yui/issues/604)
 
 Não oferecemos suporte via WhatsApp, portanto, utilize apenas essas redes sociais e a seção de issues para contatar os desenvolvedores.
 

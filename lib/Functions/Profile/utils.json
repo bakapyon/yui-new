@@ -33,7 +33,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que determina a imagem que deve usar nos comandos.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -41,7 +41,7 @@
     "modules": {
         "fs": "Leitura de diretórios e arquivos.",
         "path": "Para obter o nome da pasta.",
-        "@killovsky/telegraph": "Faz o upload de imagens em nuvem.",
+        "@pyon/telegraph": "Faz o upload de imagens em nuvem.",
         "../../index": "Para executar funções de outros arquivos."
     },
     "functions": {

@@ -26,7 +26,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que permite obter os parâmetros de inicialização.",
         "utils.json": "Dados de fábrica da envInfo."

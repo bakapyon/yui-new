@@ -43,7 +43,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema de cores e logging de mensagens.",
         "utils.json": "Dados de fábrica da envInfo."

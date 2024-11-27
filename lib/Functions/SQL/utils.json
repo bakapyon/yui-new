@@ -57,7 +57,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que contém diversas funções de tipo 'SQL' que são pequenas demais para ter arquivo próprio.",
         "utils.json": "Dados de fábrica da envInfo."

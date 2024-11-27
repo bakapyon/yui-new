@@ -32,7 +32,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que faz a coleta das informações e envio.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -40,7 +40,7 @@
     "modules": {
         "fs": "Leitura de diretórios e arquivos.",
         "path": "Para inserção do local na envInfo.",
-        "@killovsky/gtts": "Para gerar mensagens de voz com texto.",
+        "@pyon/gtts": "Para gerar mensagens de voz com texto.",
         "cleverbot-free": "Para conversar com o cleverbot.",
         "chats-simsimi": "Para conversar com o simsimi.",
         "../../Dialogues/index": "Funções que retornam os diálogos necessários.",

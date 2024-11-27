@@ -33,7 +33,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que gera informações de usuários em formato de imagens.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -72,7 +72,7 @@
                     "description": "Imagem de perfil da pessoa.",
                     "type": "Array",
                     "value": [
-                        "https://raw.githubusercontent.com/KillovSky/Yui_Files/main/Assets/user.png"
+                        "https://raw.githubusercontent.com/pyon/Yui_Files/main/Assets/user.png"
                     ]
                 },
                 "username": {
@@ -100,7 +100,7 @@
                 "avatar": {
                     "description": "Imagem de perfil do greets.",
                     "type": "String",
-                    "value": "https://raw.githubusercontent.com/KillovSky/Yui_Files/main/Assets/user.png"
+                    "value": "https://raw.githubusercontent.com/pyon/Yui_Files/main/Assets/user.png"
                 },
                 "event": {
                     "description": "Tipo de evento do greets atual.",
@@ -127,7 +127,7 @@
                 "avatar": {
                     "description": "Imagem de perfil do player.",
                     "type": "String",
-                    "value": "https://raw.githubusercontent.com/KillovSky/Yui_Files/main/Assets/user.png"
+                    "value": "https://raw.githubusercontent.com/pyon/Yui_Files/main/Assets/user.png"
                 },
                 "username": {
                     "description": "Nome do usuário que utilizará o ranking.",
@@ -255,7 +255,7 @@
             "description": "Define as configurações padrões.",
             "type": "Object",
             "value": {
-                "profile": "https://raw.githubusercontent.com/KillovSky/Yui_Files/main/Assets/user.png",
+                "profile": "https://raw.githubusercontent.com/pyon/Yui_Files/main/Assets/user.png",
                 "background": {
                     "value": "https://user-images.githubusercontent.com/55511420/200402294-51d85a0b-c405-4cfa-b316-db651dd00e7e.jpg",
                     "format": "image"

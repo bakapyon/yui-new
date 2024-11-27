@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que gera informações de usuários em formato de imagens.",
         "images": "Pasta com a base dos memes para criar.",

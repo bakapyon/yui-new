@@ -36,7 +36,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema via servidor local em navegador que permite rodar comandos de NodeJS e outros.",
         "utils.json": "Dados de fábrica da envInfo.",

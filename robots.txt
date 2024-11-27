@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://killovsky.github.io/Yui/lib/Wiki/Homepage/sitemap.xml
+Sitemap: https://pyon.github.io/Yui/lib/Wiki/Homepage/sitemap.xml

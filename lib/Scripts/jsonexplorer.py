@@ -540,7 +540,7 @@ class JSONEditorApp:
 
     def openURL(self):
         """Abre a página do Projeto na GitHub"""
-        webbrowser.open("https://KillovSky.github.io/", 1)
+        webbrowser.open("https://pyon.github.io/", 1)
 
     def aboutPopup(self):
         """Exibe uma caixa de diálogo 'Sobre'"""
@@ -561,8 +561,8 @@ class JSONEditorApp:
                 self.popupAbout,
                 text=(
                     "Um editor JSON simples, feito em Python usando a biblioteca Tkinter.\n\n"
-                    + "Desenvolvido com ♡ por KillovSky ~ Lucas R.\n\n"
-                    + "MIT License © 2023 KillovSky."
+                    + "Desenvolvido com ♡ por pyon ~ Lucas R.\n\n"
+                    + "MIT License © 2023 pyon."
                 ),
                 bg=self.colorBG,
                 fg=self.colorFG,

@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que gera informações de usuários em formato de imagens.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -35,7 +35,7 @@
     "modules": {
         "fs": "Leitura de diretórios e arquivos.",
         "path": "Para obter o nome da pasta.",
-        "@killovsky/gimages": "Para puxar as imagens na busca livre.",
+        "@pyon/gimages": "Para puxar as imagens na busca livre.",
         "../../../index": "Para rodar funções de outros arquivos."
     },
     "functions": {

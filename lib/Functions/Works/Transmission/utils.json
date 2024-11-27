@@ -1,6 +1,6 @@
 {
     "name": "ota",
-    "description": "Obter as transmissões de eventos, noticias ou outros enviados por KillovSky.",
+    "description": "Obter as transmissões de eventos, noticias ou outros enviados por pyon.",
     "usage": {
         "general": "[RESTRITO] - Verifique o 'examples' para usos inseguros.",
         "examples": [
@@ -31,7 +31,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que verifica se uma nova transmissão foi enviada.",
         "utils.json": "Dados de fábrica da envInfo."

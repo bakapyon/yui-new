@@ -26,7 +26,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que decide o que deve fazer quanto as mensagens e comandos.",
         "utils.json": "Dados de fábrica da envInfo."

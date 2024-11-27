@@ -29,7 +29,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que faz a coleta das informações e envio.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -37,7 +37,7 @@
     "modules": {
         "fs": "Leitura de diretórios e arquivos.",
         "path": "Para inserção do local na envInfo.",
-        "@killovsky/nasa": "Obtém os dados da NASA.",
+        "@pyon/nasa": "Obtém os dados da NASA.",
         "@vitalets/google-translate-api": "Traduzir a mensagem da NASA para outros idiomas.",
         "../../Dialogues/index": "Funções que retornam os diálogos necessários.",
         "../../index'": "Para rodar funções de outros arquivos."

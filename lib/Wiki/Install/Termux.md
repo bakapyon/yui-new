@@ -1,1 +1,1 @@
-### Moved to: https://github.com/KillovSky/Yui/wiki
+### Moved to: https://github.com/pyon/Yui/wiki

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Obtém a versão mais recente do repositório remoto
-latestVersion=$(curl https://raw.githubusercontent.com/KillovSky/yui/main/package.json | grep "version" | sed 's/.*": "//g' | sed 's/\",//g')
+latestVersion=$(curl https://raw.githubusercontent.com/pyon/yui/main/package.json | grep "version" | sed 's/.*": "//g' | sed 's/\",//g')
 
 # Obtém a versão atual do sistema
 hisVersion=$(grep "version" package.json | sed 's/.*": "//g' | sed 's/\",//g')
@@ -30,7 +30,7 @@ select choice in "Sim" "Não"; do
                         # Se o não arquivo existe
                         if ! [ -f "main.zip" ]; then
                             # Baixa a atualização do repositório remoto
-                            curl -LO -# https://github.com/KillovSky/yui/archive/refs/heads/main.zip
+                            curl -LO -# https://github.com/pyon/yui/archive/refs/heads/main.zip
                         else
                             # Avisa que vai atualizar
                             printf "\n[Yui] → O arquivo 'main.zip' já existe, estou utilizando ele...\n"
@@ -165,7 +165,7 @@ select choice in "Sim" "Não"; do
                     # Baixa apenas o ZIP
                     "Download ZIP (z)")
                         # Baixa apenas o arquivo ZIP
-                        curl -LO -# https://github.com/KillovSky/yui/archive/refs/heads/main.zip
+                        curl -LO -# https://github.com/pyon/yui/archive/refs/heads/main.zip
 
                         # Verifica se o download foi concluído com sucesso
                         if [[ -f "main.zip" ]]; then

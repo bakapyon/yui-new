@@ -108,7 +108,7 @@ if [[ $installNeeded -ne 0 ]]; then
 
                 # Se o não arquivo existe, baixa
                 if ! [ -f "main.zip" ]; then
-                    curl -LO -# https://github.com/KillovSky/yui/archive/refs/heads/main.zip
+                    curl -LO -# https://github.com/pyon/yui/archive/refs/heads/main.zip
                 fi
 
                 # Avisa

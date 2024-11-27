@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema de default, similar ao de uma switch com case.",
         "utils.json": "Dados de fábrica da envInfo."

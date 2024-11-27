@@ -27,7 +27,7 @@
         "reset": "reset",
         "poswork": "finish"
     },
-    "developer": "KillovSky",
+    "developer": "pyon",
     "files": {
         "index.js": "Sistema que decide qual das funções de entrada ou saída de grupo deve rodar.",
         "utils.json": "Dados de fábrica da envInfo."
@@ -180,7 +180,7 @@
         "picProfile": {
             "description": "Define a mídia que vai usar quando não puder pegar a foto de alguém.",
             "type": "String",
-            "value": "https://raw.githubusercontent.com/KillovSky/Yui_Files/main/Assets/user.png"
+            "value": "https://raw.githubusercontent.com/pyon/Yui_Files/main/Assets/user.png"
         },
 		"lasttext": {
             "description": "Cooldown ativo do contador de mensagens, serve apenas de referência, não pode ser alterado.",

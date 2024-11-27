@@ -1,6 +1,6 @@
 {
     "commands":{
-        "description":"Special commands for Yui sibling codes that bypass the standard 'command not found' error. For more details, visit https://github.com/KillovSky and explore other Yui-related projects.",
+        "description":"Special commands for Yui sibling codes that bypass the standard 'command not found' error. For more details, visit https://github.com/pyon and explore other Yui-related projects.",
         "value":[
             "evalpy",
             "goeval",

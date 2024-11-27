@@ -29,7 +29,7 @@ RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 RUN apt-get update && apt-get install -y nodejs sqlite build-essential zip unzip python2 python3 git tesseract-ocr nano && rm -rf /var/lib/apt/lists/*
 
 # Clona o repositório Yui
-RUN git clone https://github.com/KillovSky/Yui.git
+RUN git clone https://github.com/pyon/Yui.git
 
 # Define o diretório de trabalho
 WORKDIR /Yui
